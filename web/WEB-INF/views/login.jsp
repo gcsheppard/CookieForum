@@ -16,6 +16,6 @@
             <div class="c"><input type="submit" value="Submit" /><br>
         </form>  
         
-        <br><br><div class="b">or <a href="/CookieForum/register">Register</a> if you haven't do so yet.</div><br>
+        <br><br><div class="b">or <a href="/CookieForum/register">Register</a> if you haven't done so yet.</div><br>
     </body>
 </html>

@@ -1,5 +1,6 @@
 package edu.acc.jweb.cookieforum;
 
+import java.util.ArrayList;
 import javax.annotation.Resource;
 import javax.annotation.sql.DataSourceDefinition;
 import javax.servlet.ServletContextEvent;
@@ -21,9 +22,14 @@ public class CookieForumListener implements ServletContextListener {
     @Resource(lookup = "java:app/jdbc/CookieForum")
     DataSource dataSource;
     
+    
+    
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         sce.getServletContext().setAttribute("userManager", new UserManager(dataSource));
+        
+        
+        
     }
     
     @Override
