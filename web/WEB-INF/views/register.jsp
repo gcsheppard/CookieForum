@@ -12,7 +12,8 @@
         <h2>Register:</h2>
         <form action="login" method="post">
             <div class="b"><input type="text" name="username" placeholder="Username"}></div><br>
-            <div class="b"><input type="password" name="password" placeholder="Password"></div><br>
+            <div class="b"><input type="password" size="30" name="password1" placeholder="Password"></div><br>
+            <div class="b"><input type="password" size="30" name="password2" placeholder="Confirm Password"></div><br>
             <div class="b"><input type="text" size="50" name="name" placeholder="Name"></div><br>
             <div class="b"><input type="text" size="50" name="email" placeholder="Email"></div><br>
             <div class="c"><input type="submit" value="Submit" /><br>
