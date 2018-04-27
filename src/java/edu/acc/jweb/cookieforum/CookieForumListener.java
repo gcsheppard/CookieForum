@@ -28,7 +28,18 @@ public class CookieForumListener implements ServletContextListener {
     public void contextInitialized(ServletContextEvent sce) {
         sce.getServletContext().setAttribute("userManager", new UserManager(dataSource));
         
-        
+        ArrayList<String> topics = new ArrayList<>();
+        topics.add("Bar Cookies");
+        topics.add("Choclate Chip Cookies");
+        topics.add("Christmas Cookies");
+        topics.add("Drop Cookies");
+        topics.add("Filled Cookies");
+        topics.add("Sandwich Cookies");
+        topics.add("Macaroons");
+        topics.add("Nut Cookies");
+        topics.add("Peanut Butter Cookies");
+        topics.add("Sugar Cookies");
+        sce.getServletContext().setAttribute("topics", topics);
         
     }
     
