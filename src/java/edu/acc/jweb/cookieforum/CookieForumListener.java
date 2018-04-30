@@ -30,7 +30,7 @@ public class CookieForumListener implements ServletContextListener {
         
         ArrayList<String> topics = new ArrayList<>();
         topics.add("Bar Cookies");
-        topics.add("Choclate Chip Cookies");
+        topics.add("Chocolate Chip Cookies");
         topics.add("Christmas Cookies");
         topics.add("Drop Cookies");
         topics.add("Filled Cookies");
