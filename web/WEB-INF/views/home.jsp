@@ -8,6 +8,12 @@
         <link rel="stylesheet" href="/CookieForum/styles/styles.css">
     </head>
     <body>
+        <img src="images/chocolatechip.jpg" alt="" width="100">
+        <img src="images/christmas.jpg" alt="" width="100">
+        <img src="images/macaroons.jpg" alt="" width="100">
+        <img src="images/molasses.jpg" alt="" width="100">
+        <img src="images/nut.jpg" alt="" width="100">
+        <img src="images/peanutbutter.jpg" alt="" width="100">
         <h1>Welcome to the Cookie Forum!<br>
         The place to discuss all things cookie!</h1>
         
